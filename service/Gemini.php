@@ -65,11 +65,11 @@ class Gemini
         $url = "{$this->baseURL}{$model}:generateContent?key=" . GEMINI_API_KEY;
 
         // TODO: 画像パスから画像データを取得: file_get_contents()
-        $image = "";
+        $image = file_get_contents($image_path);
         // TODO: Base64エンコード: base64_encode()
-        $image_base64 = "";
+        $image_base64 = base64_encode($image);
         // TODO: プロンプトを設定
-        $prompt = "";
+        $prompt = "この写真は何？";
 
         // リクエストデータを作成
         $data = [
