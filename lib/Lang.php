@@ -10,6 +10,8 @@ class Lang
         ['code' => 'zh-CN', 'name' => 'Chinese'],
         ['code' => 'vi-VN', 'name' => 'Vietnamese'],
         ['code' => 'ko-KR', 'name' => 'Korian'],
+        ['code' => 'ne-NP', 'name' => 'Nepal'],
+        ['code' => 'id-ID', 'name' => 'Bahasa Indonesia'],
     ];
 
     public static function getByCode($code)
