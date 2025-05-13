@@ -6,11 +6,11 @@ $result = '';
 // POSTリクエストが送信された場合
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // TODO: POSTリクエストからプロンプトを取得
-    $prompt = "";
+    $prompt = $_POST['prompt'];
     // TODO: Geminiクラスのインスタンスを作成
     $gemini = new Gemini();
     // TODO: chat() を実行
-    $result = null;
+    $result = $gemini->chat($prompt);
 }
 ?>
 
