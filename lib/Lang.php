@@ -12,6 +12,10 @@ class Lang
         ['code' => 'ko-KR', 'name' => 'Korian'],
         ['code' => 'ne-NP', 'name' => 'Nepal'],
         ['code' => 'id-ID', 'name' => 'Bahasa Indonesia'],
+        ['code' => 'mn-MN', 'name' => 'Mongolia'],
+        ['code' => 'si-LK', 'name' => 'Sri Lanka'],
+        ['code' => 'my-MM', 'name' => 'Myanmar'],
+        ['code' => 'bn-BD', 'name' => 'Bangladesh'],
     ];
 
     public static function getByCode($code)
