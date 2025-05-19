@@ -78,7 +78,7 @@ const translate = async (origin, fromLang, toLang) => {
         }
 
         // TODO: レスポンスをJSON形式で取得
-        const result = {};
+        const result = await response.json();
         console.log(result);
         renderTranslation(result);
 
