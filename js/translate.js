@@ -1,3 +1,6 @@
+// ブラウザの強制再読み込みのショートカット
+// Ctrl + Shift + R
+
 const startButton = document.getElementById('startButton');
 const resultElement = document.getElementById('result');
 const statusElement = document.getElementById('status');
